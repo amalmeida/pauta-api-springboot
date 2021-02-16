@@ -1,6 +1,14 @@
 # pauta-api-springboot
 API REST votação pauta assembleia
 
+SOLUÇÃO:
+A API REST foi desenvolvida utilizando a linguagem Java, framework Spring Boot e Maven para controle de versão. 
+Algumas dependencias do Spring Boot foram adicionadas no projeto como Hibernate, JPA e H2. O H2 é um banco de dados Open Source que funciona em memória, foi escolhido por ser de fácil configuração em projetos Spring Boot.
+Os serviços REST desenvolvidos possuem endpoints com métodos dos tipos GET e POST, para criação e busca de dados. 
+
+
+DESCRIÇÃO DA ATIVIDADE - OBJETO DE ESTUDO
+
 Objetivo
 No cooperativismo, cada associado possui um voto e as decisões são tomadas em assembleias,
 por votação. Imagine que você deve criar uma solução backend para gerenciar essas sessões de
@@ -37,3 +45,7 @@ votação fechar, poste uma mensagem com o resultado da votação
 ○ Imagine que sua aplicação possa ser usada em cenários que existam centenas de
 milhares de votos. Ela deve se comportar de maneira performática nesses cenários
 ○ Testes de performance são uma boa maneira de garantir e observar como sua
+aplicação se comporta
+● Tarefa Bônus 4 - Versionamento da API
+○ Como você versionaria a API da sua aplicação? Que estratégia usar?
+
